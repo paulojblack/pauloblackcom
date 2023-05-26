@@ -72,8 +72,25 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
+     
+      <h1>
+        <b>Paulo Black</b>
+      </h1>
+      <p className={styles.intro}>
+        <h3>Software Engineer, Engineering Manager, reader, gardener, powerlifter, runner</h3>
+        {/* {samplePageLinks.map((link, i) => (
+          <React.Fragment key={link.url}>
+            <Link to={link.url}>{link.text}</Link>
+            {i !== samplePageLinks.length - 1 && <> · </>}
+          </React.Fragment>
+        ))} */}
+        <br />
+      </p>
+
+      <span>
+
       <StaticImage
-        src="../images/example.png"
+        src="../images/linkedin.png"
         loading="eager"
         width={64}
         quality={95}
@@ -81,20 +98,17 @@ const IndexPage = () => (
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
       />
-      <h1>
-        Welcome to <b>Gatsby!</b>
-      </h1>
-      <p className={styles.intro}>
-        <b>Example pages:</b>{" "}
-        {samplePageLinks.map((link, i) => (
-          <React.Fragment key={link.url}>
-            <Link to={link.url}>{link.text}</Link>
-            {i !== samplePageLinks.length - 1 && <> · </>}
-          </React.Fragment>
-        ))}
-        <br />
-        Edit <code>src/pages/index.js</code> to update this page.
-      </p>
+      <br/>
+      <StaticImage
+        src="../images/github.png"
+        loading="eager"
+        width={64}
+        quality={95}
+        formats={["auto", "webp", "avif"]}
+        alt=""
+        style={{ marginBottom: `var(--space-3)` }}
+      />
+      </span>
     </div>
     <ul className={styles.list}>
       {links.map(link => (
