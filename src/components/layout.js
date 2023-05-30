@@ -7,9 +7,17 @@
 
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-
+import { Link } from "gatsby"
 import Header from "./header"
 import "./layout.css"
+import * as styles from "../components/index.module.css"
+
+const pageLinks = [
+  { text: "Home", url: "/" },
+  { text: "Blog", url: "blog" },
+  { text: "About", url: "about" },
+]
+const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -24,7 +32,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
       <div
         style={{
           margin: `0 auto`,
@@ -32,6 +40,31 @@ const Layout = ({ children }) => {
           padding: `var(--size-gutter)`,
         }}
       >
+        <div className={styles.introContainer}>
+
+          <h1>
+            <b>Paulo Black</b>
+          </h1>
+          <h3>Software Engineer, Engineering Manager, reader, gardener, powerlifter, runner</h3>
+          <span className={styles.intro}>
+
+
+            {pageLinks.map((link, i) => (
+              <React.Fragment key={link.url}>
+                <Link to={link.url}>{link.text}</Link>
+                {i !== pageLinks.length - 1 && <> · </>}
+              </React.Fragment>
+            ))}
+
+            <React.Fragment>
+              <> · </>
+              <a href="https://github.com/paulojblack" target="_blank">Github</a>
+              <> · </>
+              <a href="https://www.linkedin.com/in/paulo-black-0a131794/" target="_blank">LinkedIn</a>
+            </React.Fragment>
+
+          </span>
+        </div>
         <main>{children}</main>
         <footer
           style={{
@@ -39,9 +72,7 @@ const Layout = ({ children }) => {
             fontSize: `var(--font-sm)`,
           }}
         >
-          © {new Date().getFullYear()} &middot; Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          © {new Date().getFullYear()} &middot; Paulo Black
         </footer>
       </div>
     </>

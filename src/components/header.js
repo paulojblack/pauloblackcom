@@ -11,7 +11,7 @@ const Header = ({ siteTitle }) => (
       justifyContent: `space-between`,
     }}
   >
-    <Link
+    {/* <Link
       to="/"
       style={{
         fontSize: `var(--font-sm)`,
@@ -19,7 +19,7 @@ const Header = ({ siteTitle }) => (
       }}
     >
       {siteTitle}
-    </Link>
+    </Link> */}
   </header>
 )
 

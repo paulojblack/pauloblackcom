@@ -72,10 +72,11 @@ dfn {
 }
 h1 {
   margin: 0;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
   padding: 0;
   line-height: var(--line-height-dense);
-  letter-spacing: -0.01em;
+  letter-spacing: -0.001em;
+  font-size: 3em;
 }
 h1 > b {
   color: var(--color-primary);

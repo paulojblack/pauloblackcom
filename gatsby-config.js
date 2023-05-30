@@ -10,7 +10,7 @@
 module.exports = {
   siteMetadata: {
     title: `Paulo Black`,
-    description: `Paulo site.`,
+    description: `Paulo Black personal blog.`,
     author: `@paulojblack`,
     siteUrl: `https://pauloblack.com`,
   },
@@ -23,6 +23,14 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/markdown`,
+        name: `markdown`
+      }
+    },
+    `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
