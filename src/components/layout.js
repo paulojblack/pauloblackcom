@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
+      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
         style={{
           margin: `0 auto`,
@@ -43,9 +43,11 @@ const Layout = ({ children }) => {
         <div className={styles.introContainer}>
 
           <h1>
-            <b>Paulo Black</b>
+            <b>Paulo's site</b>
           </h1>
-          <h3>Software Engineer, Engineering Manager, reader, gardener, powerlifter, runner</h3>
+          <p>Hey! I'm Paulo and I use this domain and the infra around it primarily for sandboxing and testing out new approaches to DevOps and database tooling, none of which
+            is exposed here other than what I may write about. I sometimes also write about my professional and personal interests including software engineering, engineering
+            management, powerlifting and strongman, running, gardening, literature and a few other topics. I'm always up for chatting about any of those topics, so drop a line if you want!</p>
           <span className={styles.intro}>
 
 

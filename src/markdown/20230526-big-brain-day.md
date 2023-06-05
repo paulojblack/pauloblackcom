@@ -21,17 +21,19 @@ for any incidents that might arise during BBD. Ahead of time, I created a new AW
 my credit card and secured some funds so everybody could eat a meal together during the project. I got
 everybody on a call and presented the following goals to them:
 
-Goal 1: Starting with an empty AWS account, produce infrastructure such that an html page c
-ontaining an image is served from an EC2 instance. This should be connected to a purchased domain
+### Goal 1
+Starting with an empty AWS account, produce infrastructure such that an html page containing an image is served from an EC2 instance. This should be connected to a purchased domain
 
-Goal 2: Have the html page make a request out to a database that can *only* be accessed from the server containing the html page.
+### Goal 2  
+Have the html page make a request out to a database that can *only* be accessed from the server containing the html page.
 
 Extra credit:
 - Draw a diagram of the stack, including network assets  
-- Simulate high traffic to your domain (there are tools for this, use google). Can you crash the server or prevent it from
-receiving more traffic? What is actually happening to the server when this happens? Look at CPU/Mem and system logs  
-- What would implementing a bare bones CI/CD look like here? If I add a new image to my html file, or change some text on
-it, how could I trigger changes in prod on deploy?  
+- Simulate high traffic to your domain (there are tools for this, use google). Can you crash the server or prevent it
+  from receiving more traffic? What is actually happening to the server when this happens? Look at CPU/Mem and system
+  logs  
+- What would implementing a bare bones CI/CD look like here? If I add a new image to my html file, or change some text
+  on it, how could I trigger changes in prod on deploy?  
 
 I encouraged them to use Cloudformation/Terraform for the sake of sharing their work and making it easy to pick up where
 they left off if we nuke the account and do the exercise again in a month. I showed them how easy it is to iterate
@@ -44,8 +46,7 @@ were eager to share what they had learned with me. At one point I hopped on Zoom
 assist with a problem they were sharing code snippets and error messages about over Slack, and they kicked me out
 insisting that they would have more fun solving it themselves.
 
-
-- Would you do something like this again?
-- Would you be interested in leading the team in a similar exercise?
- 
+Some ideas for next time:
+- Build off the deliverables of the previous BBD a la D&D campaign (e.g. deploy this through EKS)
+- Assign one of the devs to propose a topic of their own they would like to lead the team through
 

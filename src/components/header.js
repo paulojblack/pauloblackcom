@@ -1,26 +1,36 @@
 import * as React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
-  <header
+  <div
     style={{
       margin: `0 auto`,
+      display: 'flex',
       padding: `var(--space-4) var(--size-gutter)`,
-      display: `flex`,
       alignItems: `center`,
       justifyContent: `space-between`,
     }}
   >
-    {/* <Link
+    <StaticImage
+      alt="Big P"
+      style={{ margin: 0 }}
+      src="../images/favicon.png"
+      width={64}
+      quality={95}
+      formats={["auto", "webp", "avif"]}
+    />
+    <Link
       to="/"
       style={{
-        fontSize: `var(--font-sm)`,
+        fontSize: `var(--font-lg)`,
         textDecoration: `none`,
       }}
     >
       {siteTitle}
-    </Link> */}
-  </header>
+    </Link>
+   
+  </div>
 )
 
 export default Header

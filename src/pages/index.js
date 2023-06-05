@@ -47,7 +47,6 @@ export const stories = graphql`
   query {
     allMarkdownRemark(
       sort: {frontmatter: {date: DESC}}
-      limit: 2
     ) {
       edges {
         node {
@@ -55,7 +54,7 @@ export const stories = graphql`
           frontmatter {
             title
             slug
-            date
+            date(formatString: "MMMM DD, YYYY")
           }
         }
       }
