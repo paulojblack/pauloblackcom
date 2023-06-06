@@ -6,15 +6,6 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 
-
-const pageLinks = [
-  { text: "Home", url: "/" },
-  { text: "Blog", url: "blog" },
-  { text: "About", url: "about" },
-]
-
-const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
-
 const IndexPage = ({
   data: {
     allMarkdownRemark: { edges },
@@ -23,6 +14,16 @@ const IndexPage = ({
 
   return (
     <Layout>
+      <div className={styles.introContainer}>
+
+        <h1>
+          <b>Paulo's site</b>
+        </h1>
+        <p>Hey! I'm Paulo and I use this domain and the infra around it primarily for sandboxing and testing out new approaches to DevOps and database tooling, none of which
+          is exposed here other than what I may write about. I sometimes also write about my professional and personal interests including software engineering, engineering
+          management, powerlifting, strongman, running, gardening, and literature.</p>
+
+      </div>
       <div>
         {edges.map(edge => {
           const { frontmatter } = edge.node
@@ -30,7 +31,7 @@ const IndexPage = ({
             <p className={styles.blogLinkRow}>
               <a
                 className={styles.listItemfrontmatter}
-                href={`${frontmatter.slug}${utmParameters}`}
+                href={`${frontmatter.slug}`}
               >
                 {frontmatter.title}
               </a>

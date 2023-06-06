@@ -49,9 +49,3 @@
   margin-bottom: var(--space-4);
 }
 
-.intro {
-  max-width: none;
-  /* margin-bottom: unset; */
-  margin-bottom: var(--space-4);
-  line-height: var(--line-height-loose);
-}

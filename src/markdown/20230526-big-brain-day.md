@@ -7,16 +7,16 @@ tags: ["management", "playbook", "work"]
 
 Big Brain Day is an exercise I've created for my software teams to spend a 24h period hacking with each other on a
 specific topic with a high level set of goals to work towards for the purpose of exploring software as a team,
-emphasizing learning and growth. I've noticed a tendency during hackatahons and similar exercises for strong developers
+emphasizing learning and growth. I've noticed a tendency during hackathons and similar exercises for strong developers
 to leave their teammates in the dust as they sprint towards a deliverable. I've also seen the anxiety and
 competitiveness that can come out of those exercises overshadow team and skill building. Hackathons have their place, but for Big Brain Day,
 I emphasize that the KPI is the ability of any given developer participating in the exercise to speak to any decision or
 tradeoff made along the way. The pressure's off, the fun is on, and my only requirement is that no one leaves their
 teammates behind.
 
-I want to improve my team's infrastucture skills, demystify the back end and get them excited about doing infra and
+I want to improve my team's infrastructure skills, demystify the back end and get them excited about doing infra and
 data work as the team is currently biased to front end development. So for BBD, I cleared the team's routine meetings for the day,
-instructed everybody well ahead of time to wrap up work in flight, address any outstanding bugs and agree on ownership
+instructed everybody well in advance to wrap up work in flight, address any outstanding bugs and agree on ownership
 for any incidents that might arise during BBD. Ahead of time, I created a new AWS account (and deleted the default VPC, subnets etc) backed by
 my credit card and secured some funds so everybody could eat a meal together during the project. I got
 everybody on a call and presented the following goals to them:
