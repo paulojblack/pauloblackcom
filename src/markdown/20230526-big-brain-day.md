@@ -2,7 +2,7 @@
 slug: "/big-brain-day"
 date: "2023-05-26"
 title: "Big Brain Day"
-tags: ["management", "playbook", "work"]
+tags: ["management", "playbook", "tech"]
 ---
 
 Big Brain Day is an exercise I've created for my software teams to spend a 24h period hacking with each other on a

@@ -1,5 +1,5 @@
 ---
-slug: "/anathem-kingsbridge-monkcore"
+slug: "/follow-the-narrator"
 date: "2023-06-05"
 title: "Following the Narrator, Not the Books"
 tags: ["books", "hobbies", "audiobooks"]

@@ -17,14 +17,17 @@ const Header = ({ siteTitle }) => (
       justifyContent: `space-between`,
     }}
   >
-    <StaticImage
-      alt="Big P"
-      style={{ margin: 0 }}
-      src="../images/favicon.png"
-      width={64}
-      quality={95}
-      formats={["auto", "webp", "avif"]}
-    />
+    <Link to="/">
+      <StaticImage
+        alt="Big P"
+        style={{ margin: 0 }}
+        src="../images/favicon.png"
+        width={64}
+        quality={95}
+        formats={["auto", "webp", "avif"]}
+      />
+    </Link>
+   
 
     <div>
       {pageLinks.map((link, i) => (
