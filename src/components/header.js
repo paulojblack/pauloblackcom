@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => (
       <StaticImage
         alt="Big P"
         style={{ margin: 0 }}
-        src="../images/favicon.png"
+        src="../images/icons/favicon.png"
         width={64}
         quality={95}
         formats={["auto", "webp", "avif"]}

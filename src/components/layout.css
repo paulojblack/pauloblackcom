@@ -61,3 +61,10 @@ footer {
   margin-top: var(--space-5);
   font-size: var(--font-sm);
 }
+
+.blog-image {
+  text-align: left;
+  /* margin-right: 10px; */
+  width: 400px;
+  /* height: 400px; */
+}

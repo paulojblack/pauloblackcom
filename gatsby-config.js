@@ -30,7 +30,18 @@ module.exports = {
         name: `markdown`
       }
     },
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [  
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 600
+            }
+          }
+        ]}
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -44,7 +55,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icons/favicon.png`, // This path is relative to the root of the site.
       },
     },
   ],
