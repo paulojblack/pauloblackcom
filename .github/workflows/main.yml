@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - master
-      - ci-test
 
 jobs:
   build:
@@ -26,12 +25,6 @@ jobs:
 
     - name: Build Gatsby site
       run: npm run build
-
-    - name: Archive build artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: gatsby-build
-        path: public/
     
     - name: Copy site to DigitalOcean
       run: |
