@@ -1,0 +1,39 @@
+name: Build and Deploy Gatsby Site
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '18'
+
+    - name: Install Gatsby CLI
+      run: npm install -g gatsby-cli
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Build Gatsby site
+      run: npm run build
+
+    - name: Archive build artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: gatsby-build
+        path: public/
+    
+    - name: Copy site to DigitalOcean
+      run: |
+        TEMP=$(mktemp)
+        echo "${{ secrets.SSH_KEY }}" > $TEMP
+        scp -i $TEMP -r gatsby-build/ root@137.184.109.231:/data/public

@@ -17,7 +17,7 @@ pretty varying heights relative to one another, due to the hilly ground, so I st
 lower T post, and continued running them every hand's breadth until I hit the ground.
 
 <div class="blog-image">
-<img src="../images/blog/tpost_fence.png"
+<img src="../images/blog/tpost_fence.jpg"
      alt="T Post with fishing line fencing"
      style="float: left; margin-right: 10px; width: 100px; height: 100px;" />
 </div>
@@ -35,7 +35,7 @@ line around the post a few times, tied a [timber hitch](https://www.animatedknot
 content to let a mindless activity occupy my hands if I'm working outdoors and listening to an audiobook.
 
 <div class="blog-image">
-<img src="../images/blog/tpost_gate.png"
+<img src="../images/blog/tpost_gate.jpg"
      alt="Makeshift gate for T post fence made with bamboo stick and deer net."
      style="float: left; margin-right: 10px; width: 100px; height: 100px;" />
 </div>
