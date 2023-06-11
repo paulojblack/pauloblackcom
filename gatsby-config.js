@@ -1,3 +1,4 @@
+require('dotenv').config()
 /**
  * Configure your Gatsby site with this file.
  *
@@ -57,6 +58,15 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/icons/favicon.png`, // This path is relative to the root of the site.
       },
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          process.env.GA_TRACKING_ID, 
+        ],
+      }
     },
   ],
 }
