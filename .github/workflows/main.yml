@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - ci-trouble
 
 jobs:
   build:
@@ -24,7 +25,9 @@ jobs:
       run: npm ci
 
     - name: Build Gatsby site
-      run: npm run build
+      run: |
+        npm run build
+        ls -lha public/
       env:
         GA_TRACKING_ID: ${{ secrets.GA_TRACKING_ID }}
     
