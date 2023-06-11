@@ -1,6 +1,7 @@
 # README
 
-Just read the code
+This site was created for fun and relaxation as opposed to being a show-off piece with 103% test coverage and
+intuitive directory structure. So to speak, enter at your own peril.
 
 
 ### TODOs
