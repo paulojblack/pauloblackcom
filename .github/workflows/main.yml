@@ -35,4 +35,5 @@ jobs:
       run: |
         TEMP=$(mktemp)
         echo "${{ secrets.SSH_KEY }}" > $TEMP
+        rsync -avz -e "ssh -i $TEMP -o StrictHostKeyChecking=no" --delete public/ root@137.184.109.231:/data/public
         scp -o 'StrictHostKeyChecking no' -i $TEMP -r public/. root@137.184.109.231:/data/public
