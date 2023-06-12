@@ -63,8 +63,10 @@ module.exports = {
 Unless you know you need it, you can delete everything beneath `GA-TRACKING_ID`.  
 
 ## Install dotenv
-`GA-TRACKING_ID` is going to be that Measurement ID from step 1. But you don't want to paste it in directly (and check
-it into your source control). So we are going to install `dotenv`. Do the following:
+`GA-TRACKING_ID` is going to be that Measurement ID from step 1. The tracking ID will be public no matter what you do as
+it will be loaded in as an html script and visible to anyone who opens dev tools. However, you may want to avoid
+managing a public and a private .env for the same project, so we'll set this var up as we would any other environment
+variable. First, we install `dotenv`. Do the following:
 1) `npm i dotenv`
 2) At the top of `gatsby-config.js` paste: `require('dotenv').config()`
 
