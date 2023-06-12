@@ -48,6 +48,7 @@ export const stories = graphql`
   query {
     allMarkdownRemark(
       sort: {frontmatter: {date: DESC}}
+      filter: {frontmatter: {hidden: {ne: true}}}
     ) {
       edges {
         node {

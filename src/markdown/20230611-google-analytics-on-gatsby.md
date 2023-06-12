@@ -1,7 +1,7 @@
 ---
-slug: "/ga4"
+slug: "/google-analytics-on-gatsby"
 date: "2023-06-11"
-title: "Installing Google Analytics 4"
+title: "Installing Google Analytics 4 on Gatsby"
 tags: ["marketing", "tech", "howto"]
 ---
 
