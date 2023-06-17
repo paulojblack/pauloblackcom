@@ -42,7 +42,7 @@ for Leibowitz by Walter Miller and even the Redwall series are some of my favori
 so partial to a tonsure and the drama of simony that I can't recognize a truly great story, regardless of my papal
 predilection. I plan to write more critically about The Kingsbridge series in general (did I mention this is book 1 of
 3? All of them being 1000+ pages?), but for now let's skip to the end of the story following the assassination of the
-Archduke and shaming of Henry II at the end of the 12th century. Fast forward through one more century of territorial warfare,
+Archbishop and shaming of Henry II at the end of the 12th century. Fast forward through one more century of territorial warfare,
 simony, indulgences-for-sale, and nobility being obssessed with hawks as the second millenium "I just bought this drone
 and I am going to ruin a lot of people's time at the park with it", and we come to:
 
