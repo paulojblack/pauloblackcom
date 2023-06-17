@@ -11,7 +11,7 @@ emphasizing learning and growth. I've noticed a tendency during hackathons and s
 to leave their teammates in the dust as they sprint towards a deliverable. I've also seen the anxiety and
 competitiveness that can come out of those exercises overshadow team and skill building. Hackathons have their place, but for Big Brain Day,
 I emphasize that the KPI is the ability of any given developer participating in the exercise to speak to any decision or
-tradeoff made along the way. The pressure's off, the fun is on, and my only requirement is that no one leaves their
+tradeoff made along the way. The pressure's off and my only requirement is that no one leaves their
 teammates behind.
 
 I want to improve my team's infrastructure skills, demystify the back end and get them excited about doing infra and
