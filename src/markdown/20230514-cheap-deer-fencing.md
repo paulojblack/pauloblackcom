@@ -17,9 +17,9 @@ pretty varying heights relative to one another, due to the hilly ground, so I st
 lower T post, and continued running them every hand's breadth until I hit the ground.
 
 <div class="blog-image">
-<img src="../images/blog/tpost_fence.jpg"
+<img src="https://pauloblackcom-assets-public.s3.amazonaws.com/blog-images/20230514-cheap-deer-fencing-tpost_fence.jpg"
      alt="T Post with fishing line fencing"
-     style="float: left; margin-right: 10px; width: 100px; height: 100px;" />
+     style="float: left; margin-right: 10px; width: 400px; height: 400px;" />
 </div>
 
 You'll slice your fingers a little bit while you tighten the fishing line across the posts - you need to make it as taut
@@ -35,9 +35,9 @@ line around the post a few times, tied a [timber hitch](https://www.animatedknot
 content to let a mindless activity occupy my hands if I'm working outdoors and listening to an audiobook.
 
 <div class="blog-image">
-<img src="../images/blog/tpost_gate.jpg"
+<img src="https://pauloblackcom-assets-public.s3.amazonaws.com/blog-images/20230514-cheap-deer-fencing-tpost_gate.jpg"
      alt="Makeshift gate for T post fence made with bamboo stick and deer net."
-     style="float: left; margin-right: 10px; width: 100px; height: 100px;" />
+     style="float: left; margin-right: 10px; width: 400px; height: 400px;" />
 </div>
 
 The piece we vacillated about the most was definitely the gate. After wasting some money on gimmicky T post fixtures
