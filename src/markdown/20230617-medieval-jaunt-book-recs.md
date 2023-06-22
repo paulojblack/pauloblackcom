@@ -2,7 +2,7 @@
 slug: "/medieval-jaunt-book-recs"
 date: "2023-06-17"
 title: "Medieval Jaunt - Book Recs"
-tags: ["books", "hobbies"]
+tags: ["books", "hobbies", "middle ages", "history"]
 hidden: false
 ---
 

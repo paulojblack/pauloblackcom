@@ -2,7 +2,7 @@
 slug: "/cheap-deer-fence"
 date: "2023-05-14"
 title: "Cheap and Easy Deer Fencing"
-tags: ["gardening", "hobbies"]
+tags: ["garden", "hobbies"]
 ---
 
 T posts and fishing wire! We're building an 800 sq. ft. garden and needed to keep the deer out. About $100 worth of T
