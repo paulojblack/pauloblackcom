@@ -25,8 +25,11 @@ cruising along for a bumper crop, but I've got one hand around a bottle of neem 
 diatomaceous earth because I expect the aphids and slugs and all the other thieves to come crawling out of ground and
 sky and get to munching on our tasty snacks once this rain clears up (if that ever happens).
 
-<div class="blog-image">
+<div class="blog-image" style="display: flex">
 <img src="https://pauloblackcom-assets-public.s3.amazonaws.com/blog-images/20230622-summer-harvest-tatsoi.jpeg"
      alt="Tatsoi!"
-     style="margin-right: 10px; width: 400px; height: 400px;" />
+     style="margin-right: 10px; width: 400px; height: auto;" />
+<img src="https://pauloblackcom-assets-public.s3.amazonaws.com/blog-images/20230622-hint-of-harvest-garden.jpeg"
+     alt="The whole dang garden"
+     style="margin-right: 10px; width: 400px; height: auto;" />
 </div>
