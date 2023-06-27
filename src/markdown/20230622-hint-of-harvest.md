@@ -1,7 +1,7 @@
 ---
-slug: "/summer-harvest"
+slug: "/hint-of-harvest"
 date: "2023-06-22"
-title: "Summer Harvest"
+title: "Hint of Harvest"
 tags: ["garden", "hobbies"]
 hidden: false
 ---
