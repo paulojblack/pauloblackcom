@@ -3,7 +3,7 @@ slug: "/delivering-critical-performance-feedback"
 date: "2023-06-27"
 title: "Giving Professional Feedback (That's Actually Meant to Help)"
 tags: ["management", "tech"]
-hidden: false
+hidden: true
 ---
 
 "How do you handle a low performer" is a very common interview question for engineering management positions, and any
