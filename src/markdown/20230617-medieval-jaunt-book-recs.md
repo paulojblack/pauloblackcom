@@ -17,7 +17,7 @@ Daileader](https://www.goodreads.com/book/show/2062351.The_Early_Middle_Ages?ref
 
 
 I'd like to write more about these individually, and I hopefully will, but for the time being I want to recommend
-this trio that between them covers the entirety of the middle ages.
+this trio that between them has something for every period of the Middle Ages
 
 ### Early Middle Ages
 As a book recommendation, The Early Middle Ages is sort of cheating as it's a Great Courses lecture series by Philip Daileader, a professor at my alma mater
@@ -38,7 +38,7 @@ a lifetime to build the greatest cathedral the world has seen for the monastery 
 Phillip, an extremely lovable protagonist.
 
 I have a huge sweet spot in my heart for what I call monastic fiction: Anathem by Neal Stephenson, A Canticle
-for Leibowitz by Walter Miller and even the Redwall series are some of my favorite books. That said, I don't think I'm
+for Leibowitz by Walter Miller, The Name of the Rose by Umberto Eco and even the Redwall series are some of my favorite books. That said, I don't think I'm
 so partial to a tonsure and the drama of simony that I can't recognize a truly great story, regardless of my papal
 predilection. I plan to write more critically about The Kingsbridge series in general (did I mention this is book 1 of
 3? All of them being 1000+ pages?), but for now let's skip to the end of the story following the assassination of the
