@@ -1,7 +1,7 @@
 ---
 slug: "/follow-the-narrator"
 date: "2023-06-05"
-title: "Follow the Narrator, If Not the Book"
+title: "Follow the Narrator?"
 tags: ["books", "hobbies", "audiobooks"]
 ---
 

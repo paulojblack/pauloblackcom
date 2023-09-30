@@ -3,6 +3,7 @@ slug: "/google-analytics-on-gatsby"
 date: "2023-06-11"
 title: "Installing Google Analytics 4 on Gatsby"
 tags: ["marketing", "tech", "howto"]
+hidden: true
 ---
 
 I'm building a data management toolchain for marketers at work this year, and one of the things that's been on
