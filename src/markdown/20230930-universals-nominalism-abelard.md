@@ -1,9 +1,9 @@
 ---
 slug: "/universals-nominalism-abelard"
-date: "2023-09-29"
+date: "2023-09-30"
 title: "Universals, Nominalism and Peter Abelard"
 tags: ["philosophy", "history"]
-hidden: true
+hidden: false
 ---
 
 In Medieval Western Europe, Neoplatonist metaphysics underpinned theology and philosophy. This had tangible consequences
