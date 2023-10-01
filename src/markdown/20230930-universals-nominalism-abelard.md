@@ -43,7 +43,7 @@ The point is that medieval thought was steeped in this Neoplatonist philosophy o
 All somewhat abstract so far, but what historian Norman Cantor identifies as a practical consequence of this was startling. *No one
 wrote autobiographies*. Furthermore, to the extent that biographies of any kind were written of any noteworthy
 individual, the author would tailor the story to conform to archetypes such as Saint or King. From p. 331 of
-The Civilization of the Middle Ages:
+*The Civilization of the Middle Ages*:
 
 "*Augustine’s Confessions was the last autobiography written before the twelfth century, and even it is not strictly an
 autobiography, for the bishop of Hippo was concerned with revealing himself only as Everyman. In the early Middle Ages
